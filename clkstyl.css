@@ -1,0 +1,87 @@
+	body{
+		background: linear-gradient(pink, #000099, #66c2ff, #ffcccc, #ffeee6);
+	}
+	.clock{
+		width: 20rem;
+		height: 20rem;
+		border: 15px solid black;
+		border-radius: 50%;
+		position: relative;
+		margin:50px auto;
+		padding: 1rem;
+	}
+	.clock-face{
+	  position: relative;
+      width: 100%;
+      height: 100%;
+
+	}
+	
+	.sec{
+		width: 50%;
+		height: 4px;
+		background: white;
+		transition: all 0.05s;
+		position: absolute;
+		top: 50%;
+		transform-origin: 100%;
+		transform: rotate(90deg);
+        transition: all 0.05s;
+        transition-timing-function: cubic-bezier(0.1, 2.7, 0.58, 1);
+        
+	}
+	.tel{
+		height: 40%;
+		position: absolute;
+		color: red;
+		font-size: 35px;
+		margin-top: 137px;
+	}
+	.nin{
+		position: absolute;
+        font-size: 35px;
+		margin-left: 145px;
+		color: red;
+	}
+	.six{
+		position: absolute;
+		height: 40%;
+		margin-left: 155px;
+		margin-top: 290px;
+		color: red;
+		font-size: 35px;
+	}
+	.tre{
+		position: absolute;
+		height: 40%;
+		margin-left: 310px;
+		margin-top: 137px;
+		color: red;
+		font-size: 35px;
+	}
+	.min{
+		width: 50%;
+		height: 9px;
+		background: white;
+		transition: all 0.05s;
+		position: absolute;
+		top: 50%;
+		transform-origin: 100%;
+		transform: rotate(90deg);
+        transition: all 0.05s;
+        transition-timing-function: cubic-bezier(0.1, 2.7, 0.58, 1);
+
+	}
+	.hour{
+		width: 35%;
+		height: 13px;
+		background: white;
+		margin-left: 45px;
+		transition: all 0.05s;
+		position: absolute;
+		top: 50%;
+		transform-origin: 100%;
+		transform: rotate(90deg);
+        transition: all 0.05s;
+        transition-timing-function: cubic-bezier(0.1, 2.7, 0.58, 1);
+	}
